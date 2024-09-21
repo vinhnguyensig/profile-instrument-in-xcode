@@ -46,5 +46,5 @@ Export the profiling session data as a `.trace` file, which can be shared or use
 ## 7. Tips for Effective Profiling
 
 - Run your app on a real device instead of the simulator for more accurate performance data.
-- Use release builds rather than debug builds to get results closer to production performance.
+- (Use release builds rather than debug builds to get results closer to production performance.)[https://html-preview.github.io/?url=https://github.com/vinhnguyensig/profile-instrument-in-xcode/blob/main/guides/release-build-for-profile-instruments.html]
 - Focus on specific areas of concern by using the appropriate instruments.
