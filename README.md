@@ -2,7 +2,8 @@
 
 This guide provides an overview of how to use Instruments to profile and analyze your app’s performance in Xcode.
 
-Below is a demonstration based on my application: [VidVid - Split Video](https://apps.apple.com/us/app/vidvid-split-video/id6670189660){:target="_blank"}
+Below is a demonstration based on my application: [VidVid - Split Video](https://apps.apple.com/us/app/vidvid-split-video/id6670189660)
+
 ![launchicon](resources/appicon.png)
 
 ## 1. Launching Instruments
@@ -33,10 +34,9 @@ Instruments offers a variety of templates for profiling different aspects of you
 ## 4. Analyzing the Data
 
 - **Time Profiler**: Displays a call tree of executed functions and the time spent in each.
-- [**Allocations**](https://www.youtube.com/watch?v=t-5WvIWrvdY&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=3){:target="_blank"}: Shows memory allocations and object lifetime, with filtering options for specific classes or types.
-- [**Leaks**](https://www.youtube.com/watch?v=FLaBQEm9Q_k&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=2){:target="_blank"}: Highlights detected memory leaks and provides stack traces showing where the leaks originated.
-- [**Energy Log**](https://www.youtube.com/watch?v=rTaiEAMv2XQ&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=1){:target="_blank"}: Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life.
-Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life.
+- <a href="https://www.youtube.com/watch?v=t-5WvIWrvdY&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=3" target="_blank">Allocations</a>: Shows memory allocations and object lifetime, with filtering options for specific classes or types.
+- <a href="https://www.youtube.com/watch?v=FLaBQEm9Q_k&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=2" target="_blank">Leaks</a>: Highlights detected memory leaks and provides stack traces showing where the leaks originated.
+- <a href="https://www.youtube.com/watch?v=rTaiEAMv2XQ&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=1" target="_blank">Energy Log</a>: Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life.
 - **Network**: Displays data transfer information like request URLs, response times, and data sizes.
 
 ## 5. Custom Instruments
