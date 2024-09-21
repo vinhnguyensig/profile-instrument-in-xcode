@@ -1,44 +1,50 @@
-# How profile instrument works in xCode?
+# How Profile Instrument Works in Xcode
 
-1. Launching Instruments:
+This guide provides an overview of how to use Instruments to profile and analyze your app’s performance in Xcode.
 
-	•	From Xcode: Go to the menu Product > Profile or press Cmd + I. This will build your app and open it in Instruments.
-	•	Directly from Instruments: You can open the Instruments app separately and choose your app or process to profile.
+## 1. Launching Instruments
 
-2. Choosing an Instrument Template:
+- **From Xcode**: 
+  - Go to the menu **Product > Profile** or press `Cmd + I`. This will build your app and open it in Instruments.
+  
+- **Directly from Instruments**: 
+  - You can open the Instruments app separately and choose your app or process to profile.
 
-Instruments offers various templates for profiling different aspects of your app. Some common ones are:
+## 2. Choosing an Instrument Template
 
-	•	Time Profiler: Measures the CPU usage of your app. It shows where the CPU time is being spent, helping identify performance bottlenecks.
-	•	Allocations: Tracks memory allocations in your app, useful for finding memory leaks and excessive memory usage.
-	•	Leaks: Detects memory leaks in your application.
-	•	Energy Log: Analyzes the energy usage of your app, particularly important for mobile devices.
-	•	Core Data: Monitors Core Data performance.
-	•	Network: Captures and analyzes network activity.
+Instruments offers a variety of templates for profiling different aspects of your app. Some common ones include:
 
-3. Recording and Collecting Data:
+- **Time Profiler**: Measures the CPU usage of your app, helping identify performance bottlenecks.
+- **Allocations**: Tracks memory allocations, useful for finding memory leaks and excessive memory usage.
+- **Leaks**: Detects memory leaks in your application.
+- **Energy Log**: Analyzes the energy usage of your app, especially useful for mobile devices.
+- **Core Data**: Monitors Core Data performance.
+- **Network**: Captures and analyzes network activity.
 
-	•	Click the red record button to start profiling your app. Interact with your app as you normally would. Instruments will collect data on the selected metric.
-	•	You can stop recording when you’ve collected enough data for analysis.
+## 3. Recording and Collecting Data
 
-4. Analyzing the Data:
+- Click the red record button to start profiling your app.
+- Interact with your app as you normally would, and Instruments will collect data based on the selected metric.
+- Stop recording once you’ve collected enough data for analysis.
 
-	•	Time Profiler: Displays a call tree view of the functions that were executed and the time spent in each function.
-	•	Allocations: Shows memory allocations and object lifetime. You can filter by specific classes or types to find memory issues.
-	•	Leaks: Highlights any detected memory leaks in your app, with stack traces showing where the leaks originated.
-	•	Energy Log: Provides insights into CPU, GPU, network, and disk usage, and helps in optimizing battery life.
-	•	Network: Displays data transfer information, such as request URLs, response times, and sizes.
+## 4. Analyzing the Data
 
-5. Custom Instruments:
+- **Time Profiler**: Displays a call tree of executed functions and the time spent in each.
+- **Allocations**: Shows memory allocations and object lifetime, with filtering options for specific classes or types.
+- **Leaks**: Highlights detected memory leaks and provides stack traces showing where the leaks originated.
+- **Energy Log**: Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life.
+- **Network**: Displays data transfer information like request URLs, response times, and data sizes.
 
-You can create custom instruments using the DTrace or System Trace tools for more specialized performance analysis.
+## 5. Custom Instruments
 
-6. Export and Share Results:
+You can create custom instruments using DTrace or System Trace tools for more specialized performance analysis.
 
-You can export the profiling session data as a .trace file, which can be shared or used for further analysis.
+## 6. Export and Share Results
 
-7. Tips for Effective Profiling:
+Export the profiling session data as a `.trace` file, which can be shared or used for further analysis.
 
-	•	Run your app on a real device instead of the simulator for more accurate performance data.
-	•	Use release builds rather than debug builds to get results closer to production performance.
-	•	Focus on specific areas of concern by using appropriate instruments.
+## 7. Tips for Effective Profiling
+
+- Run your app on a real device instead of the simulator for more accurate performance data.
+- Use release builds rather than debug builds to get results closer to production performance.
+- Focus on specific areas of concern by using the appropriate instruments.
