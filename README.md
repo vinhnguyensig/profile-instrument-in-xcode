@@ -2,7 +2,7 @@
 
 This guide provides an overview of how to use Instruments to profile and analyze your app’s performance in Xcode.
 
-Below is a demonstration based on my application: [VidVid - Split Video](https://apps.apple.com/us/app/vidvid-split-video/id6670189660)
+Below is a demonstration based on my application: [VidVid - Split Video](https://apps.apple.com/us/app/vidvid-split-video/id6670189660?platform=iphone)
 
 ![launchicon](resources/appicon.png)
 
