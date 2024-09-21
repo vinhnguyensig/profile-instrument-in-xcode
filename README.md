@@ -31,8 +31,8 @@ Instruments offers a variety of templates for profiling different aspects of you
 
 - **Time Profiler**: Displays a call tree of executed functions and the time spent in each.
 - **Allocations**: Shows memory allocations and object lifetime, with filtering options for specific classes or types.
-- **Leaks**: Highlights detected memory leaks and provides stack traces showing where the leaks originated. https://www.youtube.com/watch?v=FLaBQEm9Q_k
-- **Energy Log**: Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life. https://www.youtube.com/watch?v=rTaiEAMv2XQ
+- **Leaks**: [Highlights detected memory leaks and provides stack traces showing where the leaks originated.](https://www.youtube.com/watch?v=FLaBQEm9Q_k)
+- **Energy Log**: [Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life.](https://www.youtube.com/watch?v=rTaiEAMv2XQ)
 - **Network**: Displays data transfer information like request URLs, response times, and data sizes.
 
 ## 5. Custom Instruments
@@ -46,5 +46,5 @@ Export the profiling session data as a `.trace` file, which can be shared or use
 ## 7. Tips for Effective Profiling
 
 - Run your app on a real device instead of the simulator for more accurate performance data.
-- (Use release builds rather than debug builds to get results closer to production performance.)[https://html-preview.github.io/?url=https://github.com/vinhnguyensig/profile-instrument-in-xcode/blob/main/guides/release-build-for-profile-instruments.html]
+- [Use release builds rather than debug builds to get results closer to production performance.](https://html-preview.github.io/?url=https://github.com/vinhnguyensig/profile-instrument-in-xcode/blob/main/guides/release-build-for-profile-instruments.html)
 - Focus on specific areas of concern by using the appropriate instruments.
