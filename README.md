@@ -37,7 +37,7 @@ Instruments offers a variety of templates for profiling different aspects of you
 Shows memory allocations and object lifetime, with filtering options for specific classes or types.
 - [**Leaks**:](https://www.youtube.com/watch?v=FLaBQEm9Q_k&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=2)
 Highlights detected memory leaks and provides stack traces showing where the leaks originated.
-- **Energy Log**:(https://www.youtube.com/watch?v=rTaiEAMv2XQ&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=1) 
+- [**Energy Log**:](https://www.youtube.com/watch?v=rTaiEAMv2XQ&list=PL2UvDxnI-m4tQr3JgIQcojcWVGJFV-0Lp&index=1) 
 Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life.
 - **Network**: Displays data transfer information like request URLs, response times, and data sizes.
 
