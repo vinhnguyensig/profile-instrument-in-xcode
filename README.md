@@ -17,7 +17,7 @@ Instruments offers a variety of templates for profiling different aspects of you
 - **Time Profiler**: Measures the CPU usage of your app, helping identify performance bottlenecks.
 - **Allocations**: Tracks memory allocations, useful for finding memory leaks and excessive memory usage.
 - **Leaks**: Detects memory leaks in your application.
-- **Energy Log**: Analyzes the energy usage of your app, especially useful for mobile devices.
+- **Energy Log**: Analyzes the energy usage of your app. 
 - **Core Data**: Monitors Core Data performance.
 - **Network**: Captures and analyzes network activity.
 
@@ -31,8 +31,8 @@ Instruments offers a variety of templates for profiling different aspects of you
 
 - **Time Profiler**: Displays a call tree of executed functions and the time spent in each.
 - **Allocations**: Shows memory allocations and object lifetime, with filtering options for specific classes or types.
-- **Leaks**: Highlights detected memory leaks and provides stack traces showing where the leaks originated.
-- **Energy Log**: Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life.
+- **Leaks**: Highlights detected memory leaks and provides stack traces showing where the leaks originated. https://www.youtube.com/watch?v=FLaBQEm9Q_k
+- **Energy Log**: Provides insights into CPU, GPU, network, and disk usage, helping to optimize battery life. https://www.youtube.com/watch?v=rTaiEAMv2XQ
 - **Network**: Displays data transfer information like request URLs, response times, and data sizes.
 
 ## 5. Custom Instruments
